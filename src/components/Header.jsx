@@ -1,13 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 import { ReactComponent as Logo } from "../assets/Bimetriks Logo.svg";
+
+const Row = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+`;
+
+const Column = styled.div`
+  flex: 50%;
+`;
+
+const List = styled.ul`
+  display: flex;
+  justify-content: space-between;
+`;
+
+const Item = styled.li`
+  
+`
 
 const Header = () => {
   return (
-    <div className="header">
-      <Logo />
-      <nav>
-        <ul>
+    <Row>
+      <Column>
+        <Logo />
+      </Column>
+      <Column>
+        <List>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -20,9 +42,9 @@ const Header = () => {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
-        </ul>
-      </nav>
-    </div>
+        </List>
+      </Column>
+    </Row>
   );
 };
 

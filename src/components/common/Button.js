@@ -1,11 +1,44 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
 
-const Button = ({content}) => {
-  return ( 
+const Button = styled.button`
+  width: 160px;
+  height: 48px;
+  border: none;
+  color: #fff;
+  background: #1d3e6e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  :active {
+    transform: translateY(4px);
+  }
+  :focus {
+    outline: 0;
+  }
+`;
+
+const ButtonWhite = styled(Button)`
+  color: #1d3e6e;
+  background: #fff;
+`;
+
+export const ButtonMain = ({ content }) => {
+  return (
     <div>
-      <button>{content}</button>
+      <Button>{content}</Button>
     </div>
-   );
-}
- 
-export default Button;
+  );
+};
+
+export const ButtonAlternative = ({ content }) => {
+  return (
+    <div>
+      <ButtonWhite>{content}</ButtonWhite>
+    </div>
+  );
+};

@@ -9,7 +9,8 @@ const Row = styled.div`
   display: flex;
   justify-content: flex-start;
   padding: 1rem 5rem;
-  background-color: #a2d0c1;
+  background: #1d3e6e;
+  background-color: ;
 `;
 
 const Column = styled.div`

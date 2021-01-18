@@ -4,28 +4,21 @@ import styled from "styled-components";
 const Heading1 = styled.h1`
   font-family: Work Sans;
   font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 18px;
-  letter-spacing: 0.2px;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 72px;
 `;
 
-const Heading2 = styled.h1`
-  font-family: Work Sans;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 18px;
-  letter-spacing: 0.2px;
-`;
+// const Heading2 = styled(Heading1)`
+//   font-size: 60px;
+// `;
 
-const Display1 = ({ displaytext }) => {
-  return <Heading1>{displaytext}</Heading1>;
+const Display1 = ({ content }) => {
+  return <Heading1>{content}</Heading1>;
 };
 
-const Display2 = ({ displaytext }) => {
-  return <Heading2>{displaytext}</Heading2>;
-};
+// function Display2({ content }) {
+//   return <Heading2>{content}</Heading2>;
+// }
 
-export {Display1, Display2}
-
+export default Display1;

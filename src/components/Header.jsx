@@ -22,7 +22,9 @@ const Header = () => {
   return (
     <Row>
       <Column>
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
       </Column>
       <Column>
         <List>

@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = styled.button`
-  width: 160px;
+  width: 100%;
   height: 48px;
+  margin-bottom: 1rem;
   border: none;
   color: #fff;
   background: #1d3e6e;
@@ -19,6 +20,11 @@ const Button = styled.button`
   }
   :focus {
     outline: 0;
+  }
+
+  @media only screen and (min-width: 768px) {
+    width: 160px;
+    height: 48px;
   }
 `;
 

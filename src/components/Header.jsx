@@ -6,7 +6,12 @@ import { ReactComponent as Logo } from "../assets/Bimetriks Logo.svg";
 const Row = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 1rem 5rem;
+  padding: 1rem 1rem;
+  background: #c7cfdb;
+
+  @media only screen and (min-width: 768px) {
+    padding: 2rem 126px 1rem;
+  }
 `;
 
 const Column = styled.div`

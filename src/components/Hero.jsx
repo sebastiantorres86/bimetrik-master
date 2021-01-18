@@ -8,15 +8,25 @@ import HeroImage from "../assets/Site Stats (3).gif";
 
 const Row = styled.div`
   display: flex;
-  padding: 1rem 5rem;
+  flex-direction: column;
+  padding: 2rem 1rem;
   background: #c7cfdb;
+
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+    padding: 60px 126px;
+  }
 `;
 
 const ButtonRow = styled(Row)`
-  width: 60%;
+  width: 100%;
   padding: 1rem 0;
   justify-content: space-between;
   background: transparent;
+
+  @media only screen and (min-width: 768px) {
+    width: 60%;
+  }
 `;
 
 const Column = styled.div`
@@ -29,11 +39,18 @@ const Copy = styled.p`
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
-  letter-spacing: 0.2px;
+  /* or 142% */
 
-  color: #000000;
-  width: 66%;
+  color: #2b292d;
+  @media only screen and (min-width: 768px) {
+    width: 66%;
+  }
 `;
+
+const Image = styled.img`
+  width: 100%;
+  height: auto;
+`
 
 const Hero = () => {
   return (
@@ -54,7 +71,7 @@ const Hero = () => {
         </ButtonRow>
       </Column>
       <Column>
-        <img src={HeroImage} alt=""/>
+        <Image src={HeroImage} alt="" />
       </Column>
     </Row>
   );

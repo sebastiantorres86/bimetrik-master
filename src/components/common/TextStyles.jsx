@@ -5,8 +5,21 @@ const Heading1 = styled.h1`
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
-  line-height: 72px;
+  font-size: 50px;
+  line-height: 50px;
+  /* or 100% */
+
+  letter-spacing: -0.3125px;
+
+  color: #2b292d;
+  @media only screen and (min-width: 768px) {
+    margin: 0 0 34px;
+    font-size: 80px;
+    line-height: 78px;
+    /* or 97% */
+
+    letter-spacing: -0.5px;
+  }
 `;
 
 // const Heading2 = styled(Heading1)`

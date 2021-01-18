@@ -18,10 +18,6 @@ const List = styled.ul`
   justify-content: space-between;
 `;
 
-const Item = styled.li`
-  
-`
-
 const Header = () => {
   return (
     <Row>

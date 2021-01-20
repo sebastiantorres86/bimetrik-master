@@ -79,3 +79,7 @@ export const Heading = styled.h2`
   color: #fff;
   margin-top: 0;
 `;
+
+export const Copyright = styled.small`
+  color: #fff;
+`;

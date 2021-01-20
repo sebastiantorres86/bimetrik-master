@@ -9,6 +9,7 @@ import {
   Copy,
   Heading,
   SocialList,
+  Copyright
 } from "./Footer.styled";
 import { ReactComponent as Logo } from "../../assets/Bimetriks Logo White.svg";
 import { ReactComponent as LogoTwitter } from "../../assets/twitter-forma-negra.svg";
@@ -16,6 +17,7 @@ import { ReactComponent as LogoLinkedin } from "../../assets/linkedin.svg";
 
 const Footer = () => {
   return (
+    <>
     <Row>
       <Column>
         <Logo />
@@ -63,8 +65,10 @@ const Footer = () => {
             </Picture>
           </a>
         </SocialList>
+        <Copyright>Copyright &copy;{(new Date().getFullYear())} BiMetriks. All Rights Reserved</Copyright>
       </Column>
     </Row>
+    </>
   );
 };
 

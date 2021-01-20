@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
+  Container,
   Row,
   Column,
   List,
   Picture,
   SocialLink,
   Copy,
-  Heading,
   SocialList,
   Copyright,
 } from "./Footer.styled";
@@ -17,42 +17,18 @@ import { ReactComponent as LogoLinkedin } from "../../assets/linkedin.svg";
 
 const Footer = () => {
   return (
-    <>
+    <Container>
       <Row>
         <Column>
           <Logo />
+        </Column>
+        <Column>
           <Copy>
             Creating a data-driven culture with business intelligence for
             everyone.
           </Copy>
         </Column>
         <Column>
-          <Heading>Site Map</Heading>
-          <List>
-            <li>
-              <Link to="/">
-                <SocialLink>Home</SocialLink>
-              </Link>
-            </li>
-            <li>
-              <Link to="/services">
-                <SocialLink>Services</SocialLink>
-              </Link>
-            </li>
-            <li>
-              <Link to="/about">
-                <SocialLink>About Us</SocialLink>
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact">
-                <SocialLink>Contact</SocialLink>
-              </Link>
-            </li>
-          </List>
-        </Column>
-        <Column>
-          <Heading>Social</Heading>
           <SocialList>
             <a href="https://twitter.com/home">
               <Picture>
@@ -66,13 +42,29 @@ const Footer = () => {
             </a>
           </SocialList>
         </Column>
-        <Column>
-          <Copyright>
-            &copy;{new Date().getFullYear()} BiMetriks. All Rights Reserved
-          </Copyright>
-        </Column>
       </Row>
-    </>
+
+      <Row>
+        <List>
+          <Link to="/">
+            <SocialLink>Home</SocialLink>
+          </Link>
+          <Link to="/services">
+            <SocialLink>Services</SocialLink>
+          </Link>
+          <Link to="/about">
+            <SocialLink>About Us</SocialLink>
+          </Link>
+          <Link to="/contact">
+            <SocialLink>Contact</SocialLink>
+          </Link>
+        </List>
+
+        <Copyright>
+          &copy;{new Date().getFullYear()} BiMetriks. All Rights Reserved
+        </Copyright>
+      </Row>
+    </Container>
   );
 };
 

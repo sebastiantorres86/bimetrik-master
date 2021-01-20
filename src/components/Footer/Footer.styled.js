@@ -1,20 +1,26 @@
 import styled from "styled-components";
 
+export const Container = styled.div`
+  height: 75vh;
+  padding: 3rem 1rem;
+  background: #1d3e6e;
+  @media only screen and (min-width: 768px) {
+    height: auto;
+    padding: 1rem 126px;
+  }
+`;
+
 export const Row = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem 1rem;
-  background: #1d3e6e;
-  height: 75vh;
 
   @media only screen and (min-width: 768px) {
-    height: 250px;
-    padding: 2rem 126px;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
   }
 `;
 
@@ -23,17 +29,25 @@ export const Column = styled.div`
   text-align: center;
 
   @media only screen and (min-width: 768px) {
-    flex: 25%;
-    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
   }
 `;
 
-export const List = styled.ul`
+export const List = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
   color: #fff;
+
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
 `;
 
 export const SocialList = styled(List)`
@@ -41,7 +55,8 @@ export const SocialList = styled(List)`
   justify-content: space-between;
 
   @media only screen and (min-width: 768px) {
-    justify-content: flex-start;
+    justify-content: flex-end;
+    width: 100%;
   }
 `;
 
@@ -51,6 +66,8 @@ export const SocialLink = styled.li`
 
   @media only screen and (min-width: 768px) {
     text-align: left;
+    padding-right: 1.5rem;
+    margin-bottom: 0;
   }
 `;
 
@@ -59,7 +76,7 @@ export const Picture = styled.div`
   height: auto;
 
   @media only screen and (min-width: 768px) {
-    margin-right: 1.5rem;
+    margin-left: 1.5rem;
   }
 `;
 
@@ -74,12 +91,7 @@ export const Copy = styled.p`
   }
 `;
 
-export const Heading = styled.h2`
-  font-size: 32px;
-  color: #fff;
-  margin-top: 0;
-`;
-
 export const Copyright = styled.small`
   color: #fff;
+  text-align: right;
 `;

@@ -56,7 +56,7 @@ export const List = styled.nav`
 
 export const SocialList = styled(List)`
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 
   @media only screen and (min-width: 768px) {
     justify-content: flex-end;
@@ -78,6 +78,7 @@ export const SocialLink = styled.li`
 export const Picture = styled.div`
   width: 30px;
   height: auto;
+  margin: 0 1rem;
 
   @media only screen and (min-width: 768px) {
     margin-left: 1.5rem;

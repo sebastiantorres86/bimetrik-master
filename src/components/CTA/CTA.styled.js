@@ -3,10 +3,9 @@ import styled from "styled-components";
 export const Row = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 3rem 1rem;
-  height: 75vh;
   @media only screen and (min-width: 768px) {
     height: 300px;
     padding: 2rem 126px;
@@ -15,7 +14,7 @@ export const Row = styled.div`
 `;
 
 export const Column = styled.div`
-  flex: 100%;
+  width: 100%;
   @media only screen and (min-width: 768px) {
     flex: 50%;
     display: flex;
@@ -27,7 +26,7 @@ export const Heading = styled.h3`
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  padding-right: 3rem;
+  text-align: center;
   font-size: 40px;
   line-height: 40px;
   /* or 100% */
@@ -35,6 +34,11 @@ export const Heading = styled.h3`
   letter-spacing: -0.25px;
 
   color: #2b292d;
+
+  @media only screen and (min-width: 768px) {
+    padding-right: 3rem;
+    text-align: left;
+  }
 `;
 
 export const Button = styled.button`
@@ -54,7 +58,7 @@ export const Button = styled.button`
   cursor: pointer;
   :hover {
     background: rgba(29, 62, 110, 0.5);
-    color:  #1d3e6e;
+    color: #1d3e6e;
     font-weight: 700;
   }
   :active {

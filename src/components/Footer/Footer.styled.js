@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 75vh;
+  height: 60vh;
   padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background: #1d3e6e;
   @media only screen and (min-width: 768px) {
     height: auto;
@@ -13,7 +16,7 @@ export const Container = styled.div`
 export const Row = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
   @media only screen and (min-width: 768px) {
@@ -42,6 +45,7 @@ export const List = styled.nav`
   justify-content: space-between;
   padding: 0;
   color: #fff;
+  margin-bottom: 2rem;
 
   @media only screen and (min-width: 768px) {
     flex-direction: row;

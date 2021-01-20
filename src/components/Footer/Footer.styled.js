@@ -57,7 +57,7 @@ export const SocialLink = styled.li`
 export const Picture = styled.div`
   width: 30px;
   height: auto;
-  
+
   @media only screen and (min-width: 768px) {
     margin-right: 1.5rem;
   }
@@ -70,6 +70,7 @@ export const Copy = styled.p`
 
   @media only screen and (min-width: 768px) {
     text-align: left;
+    padding-right: 2rem;
   }
 `;
 

@@ -23,7 +23,7 @@ export const Column = styled.div`
   text-align: center;
 
   @media only screen and (min-width: 768px) {
-    flex: 33%;
+    flex: 25%;
     text-align: left;
   }
 `;

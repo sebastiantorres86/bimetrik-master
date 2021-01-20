@@ -7,7 +7,7 @@ import { ButtonMain } from "../Button/Button";
 import { useOnClickOutside } from "../../hooks";
 import { ReactComponent as Logo } from "../../assets/Bimetriks Logo.svg";
 
-export const Header = () => {
+const Header = () => {
   const [open, setOpen] = useState(false);
   const node = useRef();
   useOnClickOutside(node, () => setOpen(false));
@@ -48,3 +48,5 @@ export const Header = () => {
     </Row>
   );
 };
+
+export default Header;

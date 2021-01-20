@@ -6,7 +6,7 @@ import { ButtonAlternative } from "../Button/Button";
 import { Display1 } from "../Button/TextStyles";
 import HeroImage from "../../assets/Site Stats (3).gif";
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <Row>
       <Column>
@@ -30,3 +30,5 @@ export const Hero = () => {
     </Row>
   );
 };
+
+export default Hero;

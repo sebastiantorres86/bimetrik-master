@@ -49,4 +49,8 @@ export const GlobalStyles = createGlobalStyle`
     color: #2B292D;
   }
 
+  li {
+    list-style-type: none;
+  }
+
 `;

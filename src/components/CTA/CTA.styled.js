@@ -5,7 +5,8 @@ export const Row = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
+  background: #c7cfdb;
   @media only screen and (min-width: 768px) {
     height: 300px;
     padding: 2rem 126px;
@@ -74,3 +75,4 @@ export const Button = styled.button`
     margin-bottom: 0;
   }
 `;
+

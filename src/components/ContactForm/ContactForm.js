@@ -72,6 +72,10 @@ const ContactForm = () => {
   return (
     <Container>
       <Heading>Contact Us</Heading>
+      {status.info.error && (
+        <div className="error">Error: {status.info.msg}</div>
+      )}
+      {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
       <hr />
       <Form onSubmit={handleOnSubmit}>
         <Label htmlFor="name">Your Name</Label>
@@ -110,10 +114,6 @@ const ContactForm = () => {
             : "Submitting..."}
         </Button>
       </Form>
-      {status.info.error && (
-        <div className="error">Error: {status.info.msg}</div>
-      )}
-      {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
     </Container>
   );
 };

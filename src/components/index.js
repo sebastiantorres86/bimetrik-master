@@ -8,3 +8,5 @@ export { default as Features } from "./Features";
 export { default as Feature } from "./Feature";
 export { default as Mission } from "./Mission";
 export { default as ContactForm } from "./ContactForm";
+export { default as HeroServices } from "./HeroServices";
+export { default as HowDo } from "./HowDo";

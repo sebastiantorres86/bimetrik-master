@@ -9,6 +9,10 @@ export const Container = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 66%;
+  width: 100%;
   height: auto;
+  @media only screen and (min-width: 768px) {
+    width: 66%;
+    height: auto;
+  }
 `;

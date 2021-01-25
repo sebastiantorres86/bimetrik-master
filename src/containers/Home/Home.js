@@ -1,12 +1,12 @@
 import React from "react";
-import { Hero, CTA, Features } from "../../components";
+import { Hero, CTA, Features, CarouselContainer } from "../../components";
 
 const Home = () => {
   return (
     <>
       <Hero />
       <Features />
-      {/* <CarouselContainer /> */}
+      <CarouselContainer />
       <CTA />
     </>
   );

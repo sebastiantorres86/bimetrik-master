@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, CTA, Features, CarouselContainer } from "../../components";
+import { Hero, CTA, Features } from "../../components";
 
 const Home = () => {
   return (

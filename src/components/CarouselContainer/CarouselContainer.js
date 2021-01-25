@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, ImageContainer, Image } from "./Carousel.styled";
+import { Container, Image } from "./Carousel.styled";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import dashboard1 from "../../assets/dashboard1.jpg";
@@ -12,26 +12,14 @@ const CarouselContainer = () => {
   return (
     <Container>
       <Carousel plugins={["arrows", "infinite"]}>
-        <ImageContainer>
-          <Image src={dashboard1} alt="dashboard1" />
-        </ImageContainer>
-        <ImageContainer>
-          <Image src={dashboard2} alt="dashboard2" />
-        </ImageContainer>
-        <ImageContainer>
-          <Image src={dashboard3} alt="dashboard3" />
-        </ImageContainer>
-        <ImageContainer>
-          <Image src={dashboard4} alt="dashboard4" />
-        </ImageContainer>
-        <ImageContainer>
-          <Image src={dashboard5} alt="dashboard5" />
-        </ImageContainer>
+        <Image src={dashboard1} alt="dashboard1" />
+        <Image src={dashboard2} alt="dashboard2" />
+        <Image src={dashboard3} alt="dashboard3" />
+        <Image src={dashboard4} alt="dashboard4" />
+        <Image src={dashboard5} alt="dashboard5" />
       </Carousel>
     </Container>
   );
 };
 
 export default CarouselContainer;
-
-// Metrics - Income - Expenses - Inventory - Shoppings

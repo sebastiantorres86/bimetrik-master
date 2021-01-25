@@ -8,6 +8,13 @@ export const Container = styled.div`
   }
 `;
 
+export const ImageContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const Image = styled.img`
   width: 100%;
   height: auto;

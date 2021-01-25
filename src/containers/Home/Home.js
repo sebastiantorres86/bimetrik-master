@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <Hero />
       <Features />
-      <CarouselContainer />
+      {/* <CarouselContainer /> */}
       <CTA />
     </>
   );

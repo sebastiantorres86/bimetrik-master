@@ -62,7 +62,7 @@ const ContactForm = () => {
       .then((response) => {
         handleServerResponse(
           true,
-          "Thank you, your message has been submitted."
+          "Thank you for contacting us. Our team will be in touch with you shortly."
         );
       })
       .catch((error) => {

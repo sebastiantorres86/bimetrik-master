@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 6rem;
 
   @media only screen and (min-width: 768px) {
-    padding: 3rem 126px;
+    padding: 2rem 226px 7rem;
   }
 `;
 

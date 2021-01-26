@@ -11,3 +11,4 @@ export { default as ContactForm } from "./ContactForm";
 export { default as HeroServices } from "./HeroServices";
 export { default as HowDo } from "./HowDo";
 export { default as CarouselContainer } from "./CarouselContainer";
+export { default as Tooltip } from "./Tooltip";

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Image } from "./Carousel.styled";
+import { Container } from "./Carousel.styled";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import dashboard1 from "../../assets/dashboard1.jpg";
@@ -12,11 +12,11 @@ const CarouselContainer = () => {
   return (
     <Container>
       <Carousel plugins={["arrows", "infinite"]}>
-        <Image src={dashboard1} alt="dashboard1" />
-        <Image src={dashboard2} alt="dashboard2" />
-        <Image src={dashboard3} alt="dashboard3" />
-        <Image src={dashboard4} alt="dashboard4" />
-        <Image src={dashboard5} alt="dashboard5" />
+        <img src={dashboard1} alt="dashboard1" />
+        <img src={dashboard2} alt="dashboard2" />
+        <img src={dashboard3} alt="dashboard3" />
+        <img src={dashboard4} alt="dashboard4" />
+        <img src={dashboard5} alt="dashboard5" />
       </Carousel>
     </Container>
   );

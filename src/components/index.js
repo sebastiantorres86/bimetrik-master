@@ -12,4 +12,6 @@ export { default as HeroServices } from "./HeroServices";
 export { default as HowDo } from "./HowDo";
 export { default as CarouselContainer } from "./CarouselContainer";
 export { default as Tooltip } from "./Tooltip";
+export { default as Works } from "./Works";
+export { default as Card } from "./Card";
 

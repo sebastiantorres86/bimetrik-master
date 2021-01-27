@@ -1,6 +1,14 @@
 import styled from "styled-components";
 import Background from "../../assets/Macbook.svg";
 
+export const Div = styled.div`
+  display: none;
+
+  @media only screen and (min-width: 768px) {
+    display: block;
+  }
+`
+
 export const Container = styled.div`
   display: none;
 

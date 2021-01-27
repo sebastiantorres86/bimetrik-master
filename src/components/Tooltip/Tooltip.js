@@ -1,6 +1,7 @@
 import React from "react";
 import ReactTooltip from "react-tooltip";
 import {
+  Div,
   Container,
   TooltipAnchor1,
   TooltipAnchor2,
@@ -14,7 +15,7 @@ import {
 
 const Tooltip = () => {
   return (
-    <>
+    <Div>
       <Heading>CASE OF USE: HUMAN RESOURCES</Heading>
       <Copy>Stay on the 👉 and find the functions of the report</Copy>
       <Container>
@@ -52,7 +53,7 @@ const Tooltip = () => {
           <ReactTooltip type="info" effect="float" />
         </TooltipAnchor6>
       </Container>
-    </>
+    </Div>
   );
 };
 

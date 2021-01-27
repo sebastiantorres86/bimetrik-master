@@ -43,6 +43,6 @@ export const Copy = styled.p`
 `;
 
 export const Image = styled.img`
-  width: 92%;
+  width: 100%;
   height: auto;
 `;

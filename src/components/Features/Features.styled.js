@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100vh;
   padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   background: #fff;
   @media only screen and (min-width: 768px) {
+    height: 100vh;
     height: auto;
     padding: 1rem 126px;
   }

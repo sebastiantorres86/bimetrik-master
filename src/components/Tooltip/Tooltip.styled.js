@@ -7,9 +7,10 @@ export const Container = styled.div`
   @media only screen and (min-width: 768px) {
     display: block;
     position: relative;
-    margin-bottom: 5rem;
+    position: center;
+    margin: 0 auto 5rem;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     background: url(${Background});
     background-size: contain;
     background-repeat: no-repeat;
@@ -17,47 +18,75 @@ export const Container = styled.div`
   }
 `;
 
+export const Heading = styled.h2`
+  margin: 0 0 1rem;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
+
+  letter-spacing: -0.357143px;
+
+  color: #2b292d;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 46px;
+    line-height: 46px;
+    /* or 100% */
+
+    text-align: center;
+    letter-spacing: -0.5px;
+  }
+`;
+
+export const Copy = styled.p`
+  text-align: center;
+  margin-bottom: 2rem;
+`
+
 export const TooltipAnchor1 = styled.div`
   position: absolute;
-  top: 110px;
-  left: 250px;
+  top: 35px;
+  left: 380px;
   cursor: pointer;
   font-size: 40px;
 `;
 export const TooltipAnchor2 = styled.p`
   position: absolute;
-  top: 0px;
-  right: 250px;
+  top: -50px;
+  right: 370px;
   cursor: pointer;
   font-size: 40px;
 `;
 
 export const TooltipAnchor3 = styled.p`
   position: absolute;
-  top: 200px;
-  left: 250px;
+  top: 50px;
+  left: 450px;
   cursor: pointer;
   font-size: 40px;
 `;
 export const TooltipAnchor4 = styled.p`
   position: absolute;
-  bottom: 110px;
-  right: 250px;
+  top: 40%;
+  right: 395px;
   cursor: pointer;
   font-size: 40px;
 `;
 export const TooltipAnchor5 = styled.p`
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 400px;
   cursor: pointer;
   font-size: 40px;
 `;
 
 export const TooltipAnchor6 = styled.p`
   position: absolute;
-  bottom: 15px;
-  right: 315px;
+  bottom: -35px;
+  right: 455px;
   cursor: pointer;
   font-size: 40px;
 `;

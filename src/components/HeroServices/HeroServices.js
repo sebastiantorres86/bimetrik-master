@@ -3,7 +3,6 @@ import {
   Container,
   Row,
   Column,
-  Heading,
   Subheading,
   Copy,
   Image,
@@ -13,7 +12,6 @@ import Dashboard from "../../assets/CATALOG_IMAGE_20200720112743590.png";
 const HeroServices = () => {
   return (
     <Container>
-      <Heading>Our Services</Heading>
       <Row>
         <Column>
           <Subheading>What is Business Intelligence?</Subheading>

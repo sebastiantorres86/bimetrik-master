@@ -6,7 +6,7 @@ export const Container = styled.div`
   padding: 2rem 15px;
 
   @media only screen and (min-width: 768px) {
-    padding: 2rem 126px 3rem;
+    padding: 1rem 126px 3rem;
   }
 `;
 
@@ -33,8 +33,8 @@ export const Heading = styled.h2`
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 46px;
+  line-height: 46px;
   /* or 100% */
 
   letter-spacing: -0.5px;

@@ -95,7 +95,7 @@ const Mission = () => {
       </Row>
       <Row>
         <ColumnHeading>
-          <Subheading>The People</Subheading>
+          <Subheading>Team</Subheading>
           <AvatarContainer>
             <Avatar src={Ariel} alt="Ariel" />
             <Avatar src={Federico} alt="Federico" />

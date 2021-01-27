@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, CTA, Features, Tooltip, CarouselContainer } from "../../components";
+import { Hero, CTA, Features, Tooltip } from "../../components";
 
 const Home = () => {
   return (
@@ -7,7 +7,6 @@ const Home = () => {
       <Hero />
       <Features />
       <Tooltip />
-      <CarouselContainer />
       <CTA />
     </>
   );

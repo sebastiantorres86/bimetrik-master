@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Row = styled.div`
+  /* height: 75vh; */
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem;
@@ -8,7 +9,7 @@ export const Row = styled.div`
 
   @media only screen and (min-width: 768px) {
     flex-direction: row;
-    padding: 60px 126px;
+    padding: 1rem 126px;
   }
 `;
 
@@ -42,6 +43,6 @@ export const Copy = styled.p`
 `;
 
 export const Image = styled.img`
-  width: 100%;
+  width: 92%;
   height: auto;
 `;

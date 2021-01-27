@@ -27,8 +27,8 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.letterBlack};
     @media only screen and (min-width: 768px) {
       margin: 0 0 34px;
-      font-size: 80px;
-      line-height: 78px;
+      font-size: 70px;
+      line-height: 68px;
       /* or 97% */
 
       letter-spacing: -0.5px;

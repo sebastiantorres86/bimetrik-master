@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  height: 100vh;
   padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
@@ -31,6 +32,7 @@ export const Column = styled.div`
 `;
 
 export const Heading = styled.h2`
+  margin: 0;
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;

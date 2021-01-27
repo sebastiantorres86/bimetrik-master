@@ -30,6 +30,7 @@ export const Heading = styled.h3`
 
 export const Copy = styled.p`
   font-family: Work Sans;
+  text-align: center;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;

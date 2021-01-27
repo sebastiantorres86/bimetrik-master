@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
   width: 100%;
   height: 48px;
+  padding: 1rem .5rem;
   margin-bottom: 1rem;
   border: none;
   color: #fff;
@@ -28,7 +29,7 @@ export const Button = styled.button`
   }
 
   @media only screen and (min-width: 768px) {
-    width: 160px;
+    width: 150px;
     height: 48px;
     margin-bottom: 0;
   }
@@ -38,3 +39,7 @@ export const ButtonWhite = styled(Button)`
   color: #1d3e6e;
   background: #fff;
 `;
+
+export const ButtonCall = styled(Button)`
+  width: 200px;
+`

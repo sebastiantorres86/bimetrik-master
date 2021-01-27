@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   text-align: center;
   padding: 3rem 1rem;
-  background: #fff;
+  background: #c7cfdb;
   @media only screen and (min-width: 768px) {
     height: auto;
-    padding: 1rem 126px;
+    padding: 1rem 126px 3rem;
     padding: auto;
   }
 `;

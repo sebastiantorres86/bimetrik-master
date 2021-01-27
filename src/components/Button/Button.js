@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, ButtonWhite} from './Button.styled'
+import {Button, ButtonWhite, ButtonCall} from './Button.styled'
 
 export const ButtonMain = ({ content }) => {
   return (
@@ -13,6 +13,14 @@ export const ButtonAlternative = ({ content }) => {
   return (
     <div>
       <ButtonWhite>{content}</ButtonWhite>
+    </div>
+  );
+};
+
+export const ButtonCTA = ({ content }) => {
+  return (
+    <div>
+      <ButtonCall>{content}</ButtonCall>
     </div>
   );
 };

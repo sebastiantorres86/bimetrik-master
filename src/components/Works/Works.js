@@ -4,6 +4,7 @@ import Card from "../Card";
 import auricular from "../../assets/auricular.svg";
 import handshake from "../../assets/handshake.svg";
 import check from "../../assets/check.svg";
+import { ButtonCTA } from "../Button/Button";
 
 const features = [
   {
@@ -35,7 +36,7 @@ const Works = () => {
         ))}
       </Row>
 
-      
+      <ButtonCTA content="Let's Connect! &rarr;" />
     </Container>
   );
 };

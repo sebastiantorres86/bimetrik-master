@@ -19,7 +19,7 @@ export const ButtonRow = styled(Row)`
   background: transparent;
 
   @media only screen and (min-width: 768px) {
-    width: 60%;
+    width: 70%;
   }
 `;
 
@@ -37,7 +37,7 @@ export const Copy = styled.p`
 
   color: #2b292d;
   @media only screen and (min-width: 768px) {
-    width: 66%;
+    width: 70%;
   }
 `;
 

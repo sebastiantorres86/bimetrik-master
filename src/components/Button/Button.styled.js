@@ -14,6 +14,12 @@ export const Button = styled.button`
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
+  cursor: pointer;
+  :hover {
+    background: rgba(29, 62, 110, 0.5);
+    color: #1d3e6e;
+    font-weight: 700;
+  }
   :active {
     transform: translateY(4px);
   }
@@ -32,5 +38,3 @@ export const ButtonWhite = styled(Button)`
   color: #1d3e6e;
   background: #fff;
 `;
-
-

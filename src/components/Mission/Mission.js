@@ -4,21 +4,15 @@ import {
   Row,
   ColumnHeading,
   ColumnCopy,
-  Heading,
   Subheading,
   Copy,
   Image,
-  AvatarContainer,
-  Avatar,
   Blockquote,
   BlockquoteCopy,
   QuoteAuthor,
 } from "./Mission.styled";
-import HeroImage from '../../assets/About us page-amico.svg'
-import image from "../../assets/data-has-a-better-idea.jpg";
-import Ariel from "../../assets/Ariel.jpg";
-import Federico from "../../assets/Federico.jpg";
-import Team from '../Team'
+import HeroImage from "../../assets/About us page-amico.svg";
+import Team from "../Team";
 
 const Mission = () => {
   return (
@@ -46,7 +40,9 @@ const Mission = () => {
             traditional institutions.
           </Copy>
         </ColumnHeading>
-        <ColumnCopy><Image src={HeroImage} alt="about us" /></ColumnCopy>
+        <ColumnCopy>
+          <Image src={HeroImage} alt="about us" />
+        </ColumnCopy>
       </Row>
       <Row>
         <ColumnHeading></ColumnHeading>

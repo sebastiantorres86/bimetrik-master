@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 15px;
+  /* display: flex;
+  flex-direction: column; */
+  padding: 1rem 15px;
+  background: #c7cfdb;
 
   @media only screen and (min-width: 768px) {
-    padding: 1rem 126px 3rem;
+    padding: 1rem 0 3rem;
   }
 `;
 
@@ -15,9 +16,12 @@ export const Row = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  padding-bottom: 2rem;
 
   @media only screen and (min-width: 768px) {
     flex-direction: row;
+    padding: 1rem 126px 3rem;
+    
   }
 `;
 
@@ -26,20 +30,21 @@ export const ColumnHeading = styled.div`
 `;
 
 export const ColumnCopy = styled.div`
-  flex: 2.5;
+  flex: 1;
 `;
 
 export const Heading = styled.h2`
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 46px;
-  line-height: 46px;
+  font-size: 40px;
+  line-height: 40px;
   /* or 100% */
 
   letter-spacing: -0.5px;
 
   color: #2b292d;
+  margin: 0 0 1rem;
 
   @media only screen and (min-width: 768px) {
     padding-right: 23rem;
@@ -76,7 +81,7 @@ export const Copy = styled.p`
 export const Image = styled.img`
   width: 100%;
   height: auto;
-  margin: 3rem 0;
+  margin: 0;
 `;
 
 export const AvatarContainer = styled.div`

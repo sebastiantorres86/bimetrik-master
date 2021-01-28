@@ -7,7 +7,7 @@ const CTA = () => {
       <Heading>Let's build something great together</Heading>
 
       <Anchor href="https://calendly.com/es" target="_blank" rel="noreferrer">
-        <Button>Let's Connect! &rarr;</Button>
+        <Button>Schedule a Call</Button>
       </Anchor>
     </Row>
   );

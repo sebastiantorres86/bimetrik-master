@@ -14,4 +14,4 @@ export { default as CarouselContainer } from "./CarouselContainer";
 export { default as Tooltip } from "./Tooltip";
 export { default as Works } from "./Works";
 export { default as Card } from "./Card";
-
+export { default as Team } from "./Team";

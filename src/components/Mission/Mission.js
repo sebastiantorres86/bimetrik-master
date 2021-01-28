@@ -14,21 +14,21 @@ import {
   BlockquoteCopy,
   QuoteAuthor,
 } from "./Mission.styled";
+import HeroImage from '../../assets/About us page-amico.svg'
 import image from "../../assets/data-has-a-better-idea.jpg";
 import Ariel from "../../assets/Ariel.jpg";
 import Federico from "../../assets/Federico.jpg";
+import Team from '../Team'
 
 const Mission = () => {
   return (
     <Container>
-      <Heading>
+      {/* <Heading>
         We empower innovators by delivering access to business insights
-      </Heading>
+      </Heading> */}
       <Row>
         <ColumnHeading>
           <Subheading>Our Mission</Subheading>
-        </ColumnHeading>
-        <ColumnCopy>
           <Copy>
             Our main goal is to help organizations to build a strategic
             decision-making process to achieve their objetives. We do that
@@ -38,22 +38,20 @@ const Mission = () => {
             manage their data and solve big problems. We are deeply focused on
             democratizing business intelligence through technology.
           </Copy>
-        </ColumnCopy>
-      </Row>
-      <Row>
-        <ColumnHeading>
           <Subheading>Our Business</Subheading>
-        </ColumnHeading>
-        <ColumnCopy>
           <Copy>
             At the core of our platform is the tecnical infrastructure of
             Microsoft PowerBI. Our innovative service provides key insights for
             business and individuals, as well as robust reporting for
             traditional institutions.
           </Copy>
-        </ColumnCopy>
+        </ColumnHeading>
+        <ColumnCopy><Image src={HeroImage} alt="about us" /></ColumnCopy>
       </Row>
-      <Image src={image} alt="data has a better idea" />
+      <Row>
+        <ColumnHeading></ColumnHeading>
+        <ColumnCopy></ColumnCopy>
+      </Row>
       <Row>
         <ColumnHeading>
           <Subheading>Values</Subheading>
@@ -93,7 +91,8 @@ const Mission = () => {
           </Copy>
         </ColumnCopy>
       </Row>
-      <Row>
+      <Team />
+      {/* <Row>
         <ColumnHeading>
           <Subheading>Team</Subheading>
           <AvatarContainer>
@@ -130,7 +129,7 @@ const Mission = () => {
             Our promise is to help clients make better data-driven decisions.
           </Copy>
         </ColumnCopy>
-      </Row>
+      </Row> */}
       <Row>
         <ColumnHeading>
           <Blockquote>

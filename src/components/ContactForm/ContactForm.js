@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
   Container,
+  Card,
   Heading,
   Label,
   Input,
@@ -71,49 +72,50 @@ const ContactForm = () => {
   };
   return (
     <Container>
-      <Heading>Contact Us</Heading>
-      {status.info.error && (
-        <div className="error">Error: {status.info.msg}</div>
-      )}
-      {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
-      <hr />
-      <Form onSubmit={handleOnSubmit}>
-        <Label htmlFor="name">Your Name</Label>
-        <Input
-          id="name"
-          type="name"
-          name="name"
-          onChange={handleOnChange}
-          required
-          value={inputs.name}
-        />
-        <Label htmlFor="email">Your Email Address</Label>
-        <Input
-          id="email"
-          type="email"
-          name="_replyto"
-          onChange={handleOnChange}
-          required
-          value={inputs.email}
-          placeholder="something@email.com"
-        />
-        <Label htmlFor="message">Message</Label>
-        <Textarea
-          id="message"
-          name="message"
-          onChange={handleOnChange}
-          required
-          value={inputs.message}
-          placeholder="Your message starts with..."
-        />
-        <Button type="submit" disabled={status.submitting}>
-          {!status.submitting
-            ? !status.submitted
-              ? "Send a Message"
-              : "Submitted"
-            : "Submitting..."}
-        </Button>
-      </Form>
+      <Card>
+        <Heading>Contact Us</Heading>
+        {status.info.error && (
+          <div className="error">Error: {status.info.msg}</div>
+        )}
+        {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
+        <Form onSubmit={handleOnSubmit}>
+          <Label htmlFor="name">Your Name</Label>
+          <Input
+            id="name"
+            type="name"
+            name="name"
+            onChange={handleOnChange}
+            required
+            value={inputs.name}
+          />
+          <Label htmlFor="email">Your Email Address</Label>
+          <Input
+            id="email"
+            type="email"
+            name="_replyto"
+            onChange={handleOnChange}
+            required
+            value={inputs.email}
+            placeholder="something@email.com"
+          />
+          <Label htmlFor="message">Message</Label>
+          <Textarea
+            id="message"
+            name="message"
+            onChange={handleOnChange}
+            required
+            value={inputs.message}
+            placeholder="Your message starts with..."
+          />
+          <Button type="submit" disabled={status.submitting}>
+            {!status.submitting
+              ? !status.submitted
+                ? "Send a Message"
+                : "Submitted"
+              : "Submitting..."}
+          </Button>
+        </Form>
+      </Card>
     </Container>
   );
 };

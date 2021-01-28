@@ -1,12 +1,11 @@
 import React from "react";
-import { HeroServices, HowDo, CTA } from "../../components";
+import { HeroServices, HowDo } from "../../components";
 
 const Services = () => {
   return (
     <>
       <HeroServices />
       <HowDo />
-      <CTA />
     </>
   );
 };

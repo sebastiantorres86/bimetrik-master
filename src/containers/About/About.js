@@ -1,11 +1,10 @@
 import React from "react";
-import { CTA, Mission } from "../../components";
+import { Mission } from "../../components";
 
 const About = () => {
   return (
     <>
       <Mission />
-      <CTA />
     </>
   );
 };

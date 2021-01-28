@@ -5,22 +5,12 @@ export const Row = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem;
-  background: #c7cfdb;
-  @media only screen and (min-width: 768px) {
-    height: 300px;
-    padding: 2rem 126px;
-    flex-direction: row;
-  }
+  background: transparent;
+  padding: 1rem;
 `;
 
 export const Column = styled.div`
   width: 100%;
-  @media only screen and (min-width: 768px) {
-    flex: 50%;
-    display: flex;
-    justify-content: center;
-  }
 `;
 
 export const Heading = styled.h3`
@@ -37,15 +27,19 @@ export const Heading = styled.h3`
   color: #2b292d;
 
   @media only screen and (min-width: 768px) {
-    padding-right: 3rem;
-    text-align: left;
+    /* padding-right: 3rem; */
+    text-align: center;
   }
 `;
+
+export const Anchor = styled.a`
+  width: 100%;
+`
 
 export const Button = styled.button`
   width: 100%;
   height: 48px;
-  margin-top: 1rem;
+  margin-bottom: 2rem;
   border: none;
   color: #fff;
   background: #1d3e6e;

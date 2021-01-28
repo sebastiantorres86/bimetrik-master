@@ -1,7 +1,8 @@
 import React from "react";
 import {
   Container,
-  Row,
+  RowEven,
+  RowOdd,
   ColumnHeading,
   ColumnCopy,
   Subheading,
@@ -12,6 +13,7 @@ import {
   QuoteAuthor,
 } from "./Mission.styled";
 import HeroImage from "../../assets/About us page-amico.svg";
+import values from '../../assets/values.PNG'
 import Team from "../Team";
 
 const Mission = () => {
@@ -20,7 +22,7 @@ const Mission = () => {
       {/* <Heading>
         We empower innovators by delivering access to business insights
       </Heading> */}
-      <Row>
+      <RowOdd>
         <ColumnHeading>
           <Subheading>Our Mission</Subheading>
           <Copy>
@@ -43,16 +45,13 @@ const Mission = () => {
         <ColumnCopy>
           <Image src={HeroImage} alt="about us" />
         </ColumnCopy>
-      </Row>
-      <Row>
-        <ColumnHeading></ColumnHeading>
-        <ColumnCopy></ColumnCopy>
-      </Row>
-      <Row>
+      </RowOdd>
+      <RowEven>
         <ColumnHeading>
           <Subheading>Values</Subheading>
+          <Image src={values} alt="values" />
         </ColumnHeading>
-        <ColumnCopy>
+        <ColumnHeading>
           <Copy>
             <b>Trust: </b>
             Build a long-term relationship with the client based on Honesty and
@@ -72,9 +71,9 @@ const Mission = () => {
           <Copy>
             <b>Fast Deliver: </b>Reach the agreed deadlines.
           </Copy>
-        </ColumnCopy>
-      </Row>
-      <Row>
+        </ColumnHeading>
+      </RowEven>
+      <RowOdd>
         <ColumnHeading>
           <Subheading>The Culture</Subheading>
         </ColumnHeading>
@@ -86,19 +85,19 @@ const Mission = () => {
             collaboration and diversity of thought, no matter the job title.
           </Copy>
         </ColumnCopy>
-      </Row>
+      </RowOdd>
       <Team />
-    
-      <Row>
+
+      <RowOdd>
         <ColumnHeading>
           <Blockquote>
             <BlockquoteCopy>
               You can´t manage what you don´t measure.
+              <QuoteAuthor>Peter Druker</QuoteAuthor>
             </BlockquoteCopy>
           </Blockquote>
-          <QuoteAuthor>Peter Druker</QuoteAuthor>
         </ColumnHeading>
-      </Row>
+      </RowOdd>
     </Container>
   );
 };

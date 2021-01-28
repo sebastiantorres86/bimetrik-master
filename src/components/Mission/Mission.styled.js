@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* display: flex;
-  flex-direction: column; */
-  padding: 1rem 15px;
   background: #c7cfdb;
 
   @media only screen and (min-width: 768px) {
@@ -11,18 +8,22 @@ export const Container = styled.div`
   }
 `;
 
-export const Row = styled.div`
+export const RowOdd = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   padding-bottom: 2rem;
+  padding: 1rem 15px;
 
   @media only screen and (min-width: 768px) {
     flex-direction: row;
-    padding: 1rem 126px 3rem;
-    
+    padding: 2rem 126px 3rem;
   }
+`;
+
+export const RowEven = styled(RowOdd)`
+  background: #fff;
 `;
 
 export const ColumnHeading = styled.div`
@@ -31,6 +32,7 @@ export const ColumnHeading = styled.div`
 
 export const ColumnCopy = styled.div`
   flex: 1;
+  display: flex;
 `;
 
 export const Heading = styled.h2`
@@ -64,14 +66,18 @@ export const Subheading = styled.h3`
   color: #2b292d;
   margin-top: 0;
   margin-bottom: 0.5rem;
+  text-align: center;
+  @media only screen and (min-width: 768px) {
+    text-align: left;
+  }
 `;
 
 export const Copy = styled.p`
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 25.56px;
   /* or 142% */
 
   color: #2c3241;
@@ -82,6 +88,10 @@ export const Image = styled.img`
   width: 100%;
   height: auto;
   margin: 0;
+
+  @media only screen and (min-width: 768px) {
+    width: 75%;
+  }
 `;
 
 export const AvatarContainer = styled.div`
@@ -103,7 +113,9 @@ export const Avatar = styled.img`
 
 export const Blockquote = styled.blockquote`
   position: relative;
-  padding: 0;
+  padding: 1.5rem 0.5rem;
+  background: #fff;
+  border-radius: 4px;
 
   @media only screen and (min-width: 768px) {
     padding: 60px 80px 40px;

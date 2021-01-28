@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <Container>
       <ContactForm />
-      <CTA />
+      <CTA content={"Schedule a Call"}/>
     </Container>
   );
 };

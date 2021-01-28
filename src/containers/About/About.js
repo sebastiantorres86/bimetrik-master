@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <Mission />
-      <CTA />
+      <CTA content={"Let's Connect! →"}/>
     </>
   );
 };

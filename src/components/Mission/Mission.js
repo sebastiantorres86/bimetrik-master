@@ -88,44 +88,7 @@ const Mission = () => {
         </ColumnCopy>
       </Row>
       <Team />
-      {/* <Row>
-        <ColumnHeading>
-          <Subheading>Team</Subheading>
-          <AvatarContainer>
-            <Avatar src={Ariel} alt="Ariel" />
-            <Avatar src={Federico} alt="Federico" />
-          </AvatarContainer>
-        </ColumnHeading>
-        <ColumnCopy>
-          <Copy>
-            We're all passionate about building a more efficient and inclusive
-            business intelligence together. At BiMetriks, we have diverse
-            backgrounds and skills.
-          </Copy>
-          <Copy>
-            We are Ariel and Federico, two friends from the small coastal city
-            of Mar del Plata, Argentina. After earning degrees in Economics and
-            Industrial Engineering and cutting our teeth with small and mid-size
-            businesses (SMBs), we moved to Buenos Aires to gain experience in
-            multinational companies.
-          </Copy>
-          <Copy>
-            We are now committed to developing direct relationships with (SMBs)
-            who are interested in applying to their operations the data
-            analytics of larger corporations. In particular, SMBs understand the
-            value of data analytics, but often lack the resources needed to
-            develop executable plans from that data.
-          </Copy>
-          <Copy>
-            To this end, we founded BiMetriks. BiMetriks is dedicated to helping
-            SMBs gather, distill and present actionable data without spending a
-            fortune on a business intelligence team.
-          </Copy>
-          <Copy>
-            Our promise is to help clients make better data-driven decisions.
-          </Copy>
-        </ColumnCopy>
-      </Row> */}
+    
       <Row>
         <ColumnHeading>
           <Blockquote>

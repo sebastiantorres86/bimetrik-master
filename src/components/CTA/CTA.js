@@ -1,13 +1,13 @@
 import React from "react";
 import { Row, Heading, Anchor, Button } from "./CTA.styled";
 
-const CTA = () => {
+const CTA = ({content}) => {
   return (
     <Row>
       <Heading>Let's build something great together</Heading>
 
       <Anchor href="https://calendly.com/es" target="_blank" rel="noreferrer">
-        <Button>Schedule a Call</Button>
+        <Button>{content}</Button>
       </Anchor>
     </Row>
   );

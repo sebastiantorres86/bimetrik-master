@@ -21,12 +21,26 @@ const Footer = () => {
       <Row>
         <Column>
           <Logo />
-        </Column>
-        <Column>
           <Copy>
             Creating a data-driven culture with business intelligence for
             everyone.
           </Copy>
+        </Column>
+        <Column>
+          <List>
+            <Link to="/">
+              <SocialLink>Home</SocialLink>
+            </Link>
+            <Link to="/services">
+              <SocialLink>Services</SocialLink>
+            </Link>
+            <Link to="/about">
+              <SocialLink>About Us</SocialLink>
+            </Link>
+            <Link to="/contact">
+              <SocialLink>Contact</SocialLink>
+            </Link>
+          </List>
         </Column>
         <Column>
           <SocialList>
@@ -41,11 +55,55 @@ const Footer = () => {
               </Picture>
             </a>
           </SocialList>
+          <Copyright>
+            &copy;{new Date().getFullYear()} BiMetriks. All Rights Reserved
+          </Copyright>
         </Column>
       </Row>
+      {/* <Row>
+        <Column>
+          <Logo />
+          <Copy>
+            Creating a data-driven culture with business intelligence for
+            everyone.
+          </Copy>
+        </Column>
+        <Column>
+          <List>
+            <Link to="/">
+              <SocialLink>Home</SocialLink>
+            </Link>
+            <Link to="/services">
+              <SocialLink>Services</SocialLink>
+            </Link>
+            <Link to="/about">
+              <SocialLink>About Us</SocialLink>
+            </Link>
+            <Link to="/contact">
+              <SocialLink>Contact</SocialLink>
+            </Link>
+          </List>
+        </Column>
+        <Column>
+          <SocialList>
+            <a href="https://twitter.com/home">
+              <Picture>
+                <LogoTwitter />
+              </Picture>
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+              <Picture>
+                <LogoLinkedin />
+              </Picture>
+            </a>
+          </SocialList>
+          <Copyright>
+            &copy;{new Date().getFullYear()} BiMetriks. All Rights Reserved
+          </Copyright>
+        </Column>
+      </Row> */}
 
-      <Row>
-        <List>
+      {/* <List>
           <Link to="/">
             <SocialLink>Home</SocialLink>
           </Link>
@@ -58,12 +116,11 @@ const Footer = () => {
           <Link to="/contact">
             <SocialLink>Contact</SocialLink>
           </Link>
-        </List>
+        </List> */}
 
-        <Copyright>
+      {/* <Copyright>
           &copy;{new Date().getFullYear()} BiMetriks. All Rights Reserved
-        </Copyright>
-      </Row>
+        </Copyright> */}
     </Container>
   );
 };

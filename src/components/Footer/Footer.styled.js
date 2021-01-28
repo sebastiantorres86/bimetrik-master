@@ -23,7 +23,6 @@ export const Row = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
   }
 `;
 
@@ -33,9 +32,11 @@ export const Column = styled.div`
 
   @media only screen and (min-width: 768px) {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    width: auto;
+    align-content: space-around;
+    height: 130px;
+    /* width: 33%; */
   }
 `;
 
@@ -50,6 +51,7 @@ export const List = styled.nav`
   @media only screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
+    align-content: start;
     margin-bottom: 0;
   }
 `;
@@ -67,10 +69,11 @@ export const SocialList = styled(List)`
 export const SocialLink = styled.li`
   color: #fff;
   text-align: center;
+  font-size: 18px;
 
   @media only screen and (min-width: 768px) {
-    text-align: left;
-    padding-right: 1.5rem;
+    /* text-align: center; */
+    /* padding-right: 1.5rem; */
     margin-bottom: 0;
   }
 `;
@@ -81,7 +84,7 @@ export const Picture = styled.div`
   margin: 0 1rem;
 
   @media only screen and (min-width: 768px) {
-    margin-left: 1.5rem;
+    margin: 0 0 0 1.5rem;
   }
 `;
 
@@ -93,6 +96,7 @@ export const Copy = styled.p`
   @media only screen and (min-width: 768px) {
     text-align: left;
     padding-right: 2rem;
+    margin-bottom: 0;
   }
 `;
 

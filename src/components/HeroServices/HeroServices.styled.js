@@ -8,7 +8,7 @@ export const Container = styled.div`
   background: #c7cfdb;
 
   @media only screen and (min-width: 768px) {
-    padding: 3rem 126px;
+    padding: 2rem 126px;
   }
 `;
 
@@ -16,8 +16,8 @@ export const Row = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 3rem 0;
+  align-items: space-between;
+  padding: 0;
 
   @media only screen and (min-width: 768px) {
     flex-direction: row;
@@ -29,6 +29,7 @@ export const Column = styled.div`
 
   @media only screen and (min-width: 768px) {
     flex: 50%;
+    padding-right: 1rem;
   }
 `;
 
@@ -51,8 +52,9 @@ export const Subheading = styled.h3`
   font-family: Work Sans;
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
-  line-height: 32px;
+  font-size: 32px;
+  margin: 0;
+  line-height: 25.6px;
   /* or 80% */
 
   color: #2b292d;
@@ -62,8 +64,9 @@ export const Copy = styled.p`
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 18px;
+  margin: .5rem 0;
+  line-height: 28.8px;
   /* or 160% */
 
   color: #2b292d;
@@ -72,4 +75,9 @@ export const Copy = styled.p`
 export const Image = styled.img`
   width: 100%;
   height: auto;
+  padding: 1rem;
+
+  @media only screen and (min-width: 768px) {
+    width: 80%;
+  }
 `;

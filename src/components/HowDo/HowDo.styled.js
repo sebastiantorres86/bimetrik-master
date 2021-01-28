@@ -1,45 +1,27 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 2rem;
   background: #f5f5f5;
 
   @media only screen and (min-width: 768px) {
     padding: 3rem 126px;
+    height: auto;
   }
 `;
 
-export const Row = styled.div`
+export const Parent = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-
-  @media only screen and (min-width: 768px) {
-    flex-direction: row;
-    padding: 1rem 10rem;
-  }
+  flex-wrap: wrap;
+  justify-content: space-around;
 `;
 
-export const ColumnOdd = styled.div`
-  flex: 100%;
+export const Div = styled.div`
+  width: 100%;
+  height: auto;
 
   @media only screen and (min-width: 768px) {
-    flex: 50%;
-    order: 0;
-  }
-`;
-
-export const ColumnEven = styled.div`
-  flex: 100%;
-
-  @media only screen and (min-width: 768px) {
-    flex: 50%;
-    order: 1;
+    width: 275px;
   }
 `;
 
@@ -47,15 +29,16 @@ export const Heading = styled.h2`
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 36px;
+  line-height: 36px;
   /* or 100% */
 
   text-align: center;
   letter-spacing: -0.5px;
 
   color: #2b292d;
-  margin: 2rem 0;
+  margin: 0;
+  padding: 0 0 1rem;
 `;
 
 export const Subheading = styled.h2`
@@ -73,15 +56,15 @@ export const Copy = styled.p`
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 28.8px;
   /* or 160% */
 
   color: #2b292d;
 `;
 
 export const Image = styled.img`
-  width: 100%;
+  width: 80%;
   height: auto;
   padding: 0 3rem;
 `;

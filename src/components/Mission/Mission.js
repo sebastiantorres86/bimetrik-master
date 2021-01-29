@@ -6,6 +6,8 @@ import {
   ColumnHeading,
   ColumnCopy,
   Subheading,
+  Ul,
+  Item,
   Copy,
   Image,
   Blockquote,
@@ -51,27 +53,27 @@ const Mission = () => {
           <Subheading>Values</Subheading>
           <Image src={values} alt="values" />
         </ColumnHeading>
-        <ColumnHeading>
-          <Copy>
+        <Ul>
+          <Item>
             <b>Trust: </b>
             Build a long-term relationship with the client based on Honesty and
             Transparency.
-          </Copy>
-          <Copy>
+          </Item>
+          <Item>
             <b>Team: </b>Work as a team in every decision - "Work with".
-          </Copy>
-          <Copy>
+          </Item>
+          <Item>
             <b>Direct Relationship: </b>
             No intermediares involved. Client contacting directly to us.
-          </Copy>
-          <Copy>
+          </Item>
+          <Item>
             <b>Fluent Communication: </b>
             Feedback from the client to ensure our services works for them.
-          </Copy>
-          <Copy>
+          </Item>
+          <Item>
             <b>Fast Deliver: </b>Reach the agreed deadlines.
-          </Copy>
-        </ColumnHeading>
+          </Item>
+        </Ul>
       </RowEven>
       <RowOdd>
         <ColumnHeading>

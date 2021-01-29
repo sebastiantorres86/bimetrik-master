@@ -12,11 +12,15 @@ export const Container = styled.div`
   }
 `;
 
+export const Div = styled(Container)`
+  background: #fff;
+`
+
 export const Row = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: space-between;
+  align-items: center;
   padding: 0;
 
   @media only screen and (min-width: 768px) {
@@ -37,8 +41,8 @@ export const Heading = styled.h2`
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 46px;
+  line-height: 46px;
   /* or 100% */
 
   text-align: center;
@@ -76,8 +80,9 @@ export const Image = styled.img`
   width: 100%;
   height: auto;
   padding: 1rem;
-
-  @media only screen and (min-width: 768px) {
-    width: 80%;
-  }
 `;
+
+export const HowImage = styled(Image)`
+  width: 250px;
+  height: auto;
+`

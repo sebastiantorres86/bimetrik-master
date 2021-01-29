@@ -12,7 +12,7 @@ export const RowOdd = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-self: center;
   padding-bottom: 2rem;
   padding: 1rem 15px;
 
@@ -28,6 +28,13 @@ export const RowEven = styled(RowOdd)`
 
 export const ColumnHeading = styled.div`
   flex: 1;
+`;
+
+export const Ul = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
 `;
 
 export const ColumnCopy = styled.div`
@@ -72,6 +79,20 @@ export const Subheading = styled.h3`
   }
 `;
 
+export const Item = styled.li`
+  list-style-type: square;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25.56px;
+  /* or 142% */
+
+  color: #2c3241;
+  margin-top: 0;
+  margin-bottom: 1rem;
+`;
+
 export const Copy = styled.p`
   font-family: Work Sans;
   font-style: normal;
@@ -91,6 +112,7 @@ export const Image = styled.img`
 
   @media only screen and (min-width: 768px) {
     width: 75%;
+    margin-left: 6rem;
   }
 `;
 

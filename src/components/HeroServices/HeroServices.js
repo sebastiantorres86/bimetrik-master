@@ -35,10 +35,10 @@ const HowWeDoIt = () => {
         <HowImage src={report} alt="report" />
         <Copy>
           Next, we work with you to <b>define metrics</b> that will improve your
-          business goals using the data. We
-          <b>design an interactive report</b>
+          business goals using the data. We 
+          <b> design an interactive report </b> 
           that makes it easy to detect growth, stability and red flags. As time
-          progresses, the <b>dynamic report updates automatically</b> , saving
+          progresses, the <b>dynamic report updates automatically</b>, saving
           you both time and energy from having to evaluate each next step as new
           information appears. You will be able to easily navigate the details
           and interactions of your data to better understand the ins and outs of
@@ -67,9 +67,9 @@ const HeroServices = () => {
               that builds up can become overwhelming and disorganized making it
               difficult to digest. This can cause business owners to feel
               disoriented and uncertain on how to make important business
-              decisions. We help small and medium businesses systematize and
+              decisions. <b>We help small and medium businesses systematize and
               improve their data quality to access their information quickly and
-              easily.
+              easily.</b>
             </Copy>
           </Column>
           <Column>

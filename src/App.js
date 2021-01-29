@@ -5,12 +5,14 @@ import { GlobalStyles } from "./global";
 import { theme } from "./theme";
 import { Header, Footer } from "./components";
 import Routes from "./Routes";
+import ScrollToTop from './ScrollToTop'
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Router>
+        <ScrollToTop />
         <Header />
         <Routes />
         <Footer />

@@ -6,7 +6,7 @@ const Services = () => {
     <>
       <HeroServices />
       <HowDo />
-      <CTA content={"Let's Connect! →"} />
+      <CTA content={"Let's Connect! →"} link={"/contact"}/>
     </>
   );
 };

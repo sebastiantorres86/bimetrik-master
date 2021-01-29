@@ -5,6 +5,7 @@ import auricular from "../../assets/auricular.svg";
 import handshake from "../../assets/handshake.svg";
 import check from "../../assets/check.svg";
 import { ButtonCTA } from "../Button/Button";
+import { Link } from "react-router-dom";
 
 const features = [
   {
@@ -36,7 +37,9 @@ const Works = () => {
         ))}
       </Row>
 
-      <ButtonCTA content="Let's Connect! &rarr;" />
+      <Link to="/contact">
+        <ButtonCTA content="Let's Connect! &rarr;" />
+      </Link>
     </Container>
   );
 };

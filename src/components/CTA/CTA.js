@@ -1,14 +1,15 @@
 import React from "react";
-import { Row, Heading, Anchor, Button } from "./CTA.styled";
+import { Link } from "react-router-dom";
+import { Row, Heading, Button } from "./CTA.styled";
 
-const CTA = ({content}) => {
+const CTA = ({content, link}) => {
   return (
     <Row>
       <Heading>Let's build something great together</Heading>
 
-      <Anchor href="https://calendly.com/es" target="_blank" rel="noreferrer">
+      <Link to={link}>
         <Button>{content}</Button>
-      </Anchor>
+      </Link>
     </Row>
   );
 };

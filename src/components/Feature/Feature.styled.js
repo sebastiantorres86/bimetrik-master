@@ -16,6 +16,7 @@ export const Heading = styled.h3`
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
+  text-align: center;
   font-size: 22px;
   line-height: 32px;
   /* or 145% */

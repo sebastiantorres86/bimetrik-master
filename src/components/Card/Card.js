@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Image } from "./Card.styled";
+import { Container, Image, } from "./Card.styled";
 
 const Card = ({ feature }) => {
   return (

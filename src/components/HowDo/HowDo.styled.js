@@ -19,6 +19,9 @@ export const Parent = styled.div`
 export const Div = styled.div`
   width: 100%;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media only screen and (min-width: 768px) {
     width: 275px;
@@ -56,11 +59,13 @@ export const Copy = styled.p`
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
+  text-align: center;
   font-size: 18px;
   line-height: 28.8px;
   /* or 160% */
 
   color: #2b292d;
+  margin-top: 0;
 `;
 
 export const Image = styled.img`

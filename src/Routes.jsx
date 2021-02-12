@@ -4,6 +4,7 @@ import Home from "./containers/Home/Home";
 import Services from "./containers/ServiceSection/Services";
 import About from "./containers/About/About";
 import Contact from "./containers/Contact/Contact";
+import NotFound from "./containers/NotFound/NotFound";
 
 const Routes = () => {
   return (
@@ -12,6 +13,7 @@ const Routes = () => {
       <Route exact path="/services" component={Services} />
       <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
+      <Route component={NotFound} />
     </Switch>
   );
 };

@@ -49,7 +49,7 @@ const Footer = () => {
                 <LogoTwitter />
               </Picture>
             </a>
-            <a href="https://www.linkedin.com/feed/">
+            <a href="https://www.linkedin.com/company/bimetriks/">
               <Picture>
                 <LogoLinkedin />
               </Picture>

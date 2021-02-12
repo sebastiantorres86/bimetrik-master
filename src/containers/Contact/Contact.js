@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <Container>
       <ContactForm />
-      <CTA content={"Schedule a Call"} href={"https://calendly.com/es"}/>
+      <CTA content={"Schedule a Call"} href={"https://calendly.com/bimetriks/discovery-meeting"}/>
     </Container>
   );
 };

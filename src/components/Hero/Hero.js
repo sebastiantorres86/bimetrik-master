@@ -20,7 +20,7 @@ const Hero = () => {
             <ButtonMain content={"Contact"} />
           </Link>
           <Link to="/services">
-            <ButtonAlternative content={"Learn More"} />
+            <ButtonAlternative content={"Our Services"} />
           </Link>
         </ButtonRow>
       </Column>

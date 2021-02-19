@@ -36,14 +36,14 @@ export const Image = styled.img`
   width: 100%;
   height: auto;
   margin: 0;
-`;
+`
 
 export const Avatar = styled.img`
   width: 100%;
   height: auto;
   border-radius: 50%;
   padding: 0 2.5rem;
-`;
+`
 
 export const Subheading = styled.h3`
   font-family: Work Sans;
@@ -59,7 +59,7 @@ export const Subheading = styled.h3`
   color: #2b292d;
   margin-top: 0;
   margin-bottom: 1.5rem;
-`;
+`
 
 export const Copy = styled.p`
   font-family: Work Sans;
@@ -71,4 +71,4 @@ export const Copy = styled.p`
 
   color: #2c3241;
   margin-top: 0;
-`;
+`

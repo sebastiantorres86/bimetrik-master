@@ -1,5 +1,5 @@
-import React from "react";
-import { Container, Heading, Copy } from "./Feature.styled";
+import React from 'react'
+import { Container, Heading, Copy } from './Feature.styled'
 
 const Feature = ({ feature }) => {
   return (
@@ -8,7 +8,7 @@ const Feature = ({ feature }) => {
       <Heading>{feature.heading}</Heading>
       <Copy>{feature.copy}</Copy>
     </Container>
-  );
-};
+  )
+}
 
-export default Feature;
+export default Feature

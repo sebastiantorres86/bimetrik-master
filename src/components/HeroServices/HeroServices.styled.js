@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 768px) {
     padding: 2rem 126px;
   }
-`;
+`
 
 export const Div = styled(Container)`
   background: #fff;
@@ -26,7 +26,7 @@ export const Row = styled.div`
   @media only screen and (min-width: 768px) {
     flex-direction: row;
   }
-`;
+`
 
 export const Column = styled.div`
   flex: 100%;
@@ -35,7 +35,7 @@ export const Column = styled.div`
     flex: 50%;
     padding-right: 1rem;
   }
-`;
+`
 
 export const Heading = styled.h2`
   font-family: Work Sans;
@@ -50,7 +50,7 @@ export const Heading = styled.h2`
 
   color: #2b292d;
   margin: 0;
-`;
+`
 
 export const Subheading = styled.h3`
   font-family: Work Sans;
@@ -62,7 +62,7 @@ export const Subheading = styled.h3`
   /* or 80% */
 
   color: #2b292d;
-`;
+`
 
 export const Copy = styled.p`
   font-family: Work Sans;
@@ -74,13 +74,13 @@ export const Copy = styled.p`
   /* or 160% */
 
   color: #2b292d;
-`;
+`
 
 export const Image = styled.img`
   width: 100%;
   height: auto;
   padding: 1rem;
-`;
+`
 
 export const HowImage = styled(Image)`
   width: 250px;

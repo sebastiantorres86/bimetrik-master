@@ -1,18 +1,18 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useEffect } from "react";
-import { withRouter } from "react-router-dom";
+import { useEffect } from 'react'
+import { withRouter } from 'react-router-dom'
 
-function ScrollToTop({ history }) {
+function ScrollToTop ({ history }) {
   useEffect(() => {
     const unlisten = history.listen(() => {
-      window.scrollTo(0, 0);
-    });
+      window.scrollTo(0, 0)
+    })
     return () => {
-      unlisten();
-    };
-  }, []);
+      unlisten()
+    }
+  }, [])
 
-  return null;
+  return null
 }
 
-export default withRouter(ScrollToTop);
+export default withRouter(ScrollToTop)

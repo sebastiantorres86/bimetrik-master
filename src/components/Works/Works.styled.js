@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   text-align: center;
@@ -9,7 +9,7 @@ export const Container = styled.div`
     padding: 1rem 126px 3rem;
     padding: auto;
   }
-`;
+`
 
 export const Row = styled.div`
   display: flex;
@@ -21,7 +21,7 @@ export const Row = styled.div`
     flex-direction: row;
     justify-content: space-between;
   }
-`;
+`
 
 export const Column = styled.div`
   flex: 100%;
@@ -30,7 +30,7 @@ export const Column = styled.div`
     flex: 33%;
     margin: 0;
   }
-`;
+`
 
 export const Heading = styled.h2`
   font-family: Work Sans;
@@ -45,6 +45,6 @@ export const Heading = styled.h2`
 
   color: #2b292d;
   text-align: center;
-`;
+`
 
-export const Button = styled.button``;
+export const Button = styled.button``

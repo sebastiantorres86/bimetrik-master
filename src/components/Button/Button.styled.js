@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Button = styled.button`
   width: 100%;
@@ -33,12 +33,12 @@ export const Button = styled.button`
     height: 48px;
     margin-bottom: 0;
   }
-`;
+`
 
 export const ButtonWhite = styled(Button)`
   color: #1d3e6e;
   background: #fff;
-`;
+`
 
 export const ButtonCall = styled(Button)`
   width: 200px;

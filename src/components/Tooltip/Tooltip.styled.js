@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Background from "../../assets/Macbook.svg";
+import styled from 'styled-components'
+import Background from '../../assets/Macbook.svg'
 
 export const Div = styled.div`
   display: none;
@@ -24,7 +24,7 @@ export const Container = styled.div`
     background-repeat: no-repeat;
     background-position: center;
   }
-`;
+`
 
 export const Heading = styled.h2`
   margin: 0 0 1rem;
@@ -47,7 +47,7 @@ export const Heading = styled.h2`
     text-align: center;
     letter-spacing: -0.5px;
   }
-`;
+`
 
 export const Copy = styled.p`
   text-align: center;
@@ -60,14 +60,14 @@ export const TooltipAnchor1 = styled.div`
   left: 380px;
   cursor: pointer;
   font-size: 40px;
-`;
+`
 export const TooltipAnchor2 = styled.p`
   position: absolute;
   top: -50px;
   right: 370px;
   cursor: pointer;
   font-size: 40px;
-`;
+`
 
 export const TooltipAnchor3 = styled.p`
   position: absolute;
@@ -75,21 +75,21 @@ export const TooltipAnchor3 = styled.p`
   left: 450px;
   cursor: pointer;
   font-size: 40px;
-`;
+`
 export const TooltipAnchor4 = styled.p`
   position: absolute;
   top: 40%;
   right: 395px;
   cursor: pointer;
   font-size: 40px;
-`;
+`
 export const TooltipAnchor5 = styled.p`
   position: absolute;
   top: 40%;
   left: 400px;
   cursor: pointer;
   font-size: 40px;
-`;
+`
 
 export const TooltipAnchor6 = styled.p`
   position: absolute;
@@ -97,4 +97,4 @@ export const TooltipAnchor6 = styled.p`
   right: 455px;
   cursor: pointer;
   font-size: 40px;
-`;
+`

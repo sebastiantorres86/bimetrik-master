@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 60vh;
@@ -11,7 +11,7 @@ export const Container = styled.div`
     height: auto;
     padding: 1rem 126px;
   }
-`;
+`
 
 export const Row = styled.div`
   display: flex;
@@ -24,7 +24,7 @@ export const Row = styled.div`
     justify-content: space-between;
     align-items: center;
   }
-`;
+`
 
 export const Column = styled.div`
   flex: 100%;
@@ -38,7 +38,7 @@ export const Column = styled.div`
     height: 130px;
     /* width: 33%; */
   }
-`;
+`
 
 export const List = styled.nav`
   display: flex;
@@ -54,7 +54,7 @@ export const List = styled.nav`
     align-content: start;
     margin-bottom: 0;
   }
-`;
+`
 
 export const SocialList = styled(List)`
   flex-direction: row;
@@ -64,7 +64,7 @@ export const SocialList = styled(List)`
     justify-content: flex-end;
     width: 100%;
   }
-`;
+`
 
 export const SocialLink = styled.li`
   color: #fff;
@@ -76,7 +76,7 @@ export const SocialLink = styled.li`
     /* padding-right: 1.5rem; */
     margin-bottom: 0;
   }
-`;
+`
 
 export const Picture = styled.div`
   width: 30px;
@@ -86,7 +86,7 @@ export const Picture = styled.div`
   @media only screen and (min-width: 768px) {
     margin: 0 0 0 1.5rem;
   }
-`;
+`
 
 export const Copy = styled.p`
   color: #fff;
@@ -98,9 +98,9 @@ export const Copy = styled.p`
     padding-right: 2rem;
     margin-bottom: 0;
   }
-`;
+`
 
 export const Copyright = styled.small`
   color: #fff;
   text-align: right;
-`;
+`

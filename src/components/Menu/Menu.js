@@ -1,11 +1,11 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import styled from "styled-components";
-import { bool } from "prop-types";
-import { StyledMenu } from "./Menu.styled";
-import { ButtonMain } from "../Button/Button";
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import styled from 'styled-components'
+import { bool } from 'prop-types'
+import { StyledMenu } from './Menu.styled'
+import { ButtonMain } from '../Button/Button'
 
-const activeClassName = "nav-item-active";
+const activeClassName = 'nav-item-active'
 
 const StyledLink = styled(NavLink).attrs({ activeClassName })`
   &.${activeClassName} {
@@ -21,25 +21,25 @@ const StyledLink = styled(NavLink).attrs({ activeClassName })`
 
     color: #2b292d;
   }
-`;
+`
 
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <StyledLink exact to="/">
+      <StyledLink exact to='/'>
         Home
       </StyledLink>
-      <StyledLink to="/services">Services</StyledLink>
-      <StyledLink to="/about">About Us</StyledLink>
-      <StyledLink to="/contact">
-        <ButtonMain content={"Contact"} />
+      <StyledLink to='/services'>Services</StyledLink>
+      <StyledLink to='/about'>About Us</StyledLink>
+      <StyledLink to='/contact'>
+        <ButtonMain content='Contact' />
       </StyledLink>
     </StyledMenu>
-  );
-};
+  )
+}
 
 Menu.propTypes = {
-  open: bool.isRequired,
-};
+  open: bool.isRequired
+}
 
-export default Menu;
+export default Menu

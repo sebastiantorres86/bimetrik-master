@@ -19,11 +19,11 @@ export const Row = styled.div`
   align-items: center;
   background: transparent;
   padding: 1rem;
-`;
+`
 
 export const Column = styled.div`
   width: 100%;
-`;
+`
 
 export const Heading = styled.h3`
   font-family: Work Sans;
@@ -42,7 +42,7 @@ export const Heading = styled.h3`
     /* padding-right: 3rem; */
     text-align: center;
   }
-`;
+`
 
 export const Anchor = styled.a`
   width: 100%;
@@ -80,4 +80,4 @@ export const Button = styled.button`
     height: 60px;
     margin-bottom: 0;
   }
-`;
+`

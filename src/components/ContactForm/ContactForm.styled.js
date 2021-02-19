@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   background: transparent;
@@ -10,7 +10,7 @@ export const Container = styled.div`
     padding: 1rem 1rem 1rem 126px;
     width: 50%;
   }
-`;
+`
 
 export const Card = styled.div`
   display: flex;
@@ -27,7 +27,7 @@ export const Card = styled.div`
     width: 500px;
     height: auto;
   }
-`;
+`
 
 export const Heading = styled.h3`
   font-family: Work Sans;
@@ -42,7 +42,7 @@ export const Heading = styled.h3`
 
   color: #2b292d;
   margin: 0;
-`;
+`
 
 export const Label = styled.label`
   font-family: Work Sans;
@@ -54,7 +54,7 @@ export const Label = styled.label`
   /* identical to box height, or 137% */
 
   color: #2c3241;
-`;
+`
 
 export const Input = styled.input`
   width: 100%;
@@ -72,7 +72,7 @@ export const Input = styled.input`
 
   color: #2c3241;
   padding: 6px 15px;
-`;
+`
 
 export const Textarea = styled.textarea`
   height: 168px;
@@ -89,7 +89,7 @@ export const Textarea = styled.textarea`
 
   color: #2c3241;
   padding: 6px 15px;
-`;
+`
 
 export const Form = styled.form`
   display: flex;
@@ -99,7 +99,7 @@ export const Form = styled.form`
   @media only screen and (min-width: 768px) {
     padding: 0;
   }
-`;
+`
 
 export const Button = styled.button`
   width: 100%;
@@ -121,4 +121,4 @@ export const Button = styled.button`
   :focus {
     outline: 0;
   }
-`;
+`

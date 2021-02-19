@@ -1,29 +1,29 @@
-import React from "react";
-import { Container, Row, Column, Heading } from "./Features.styled";
-import Feature from "../Feature";
-import FeatureImage1 from "../../assets/Data report-amico.svg";
-import FeatureImage2 from "../../assets/Data Trends-amico.svg";
-import FeatureImage3 from "../../assets/Report-amico.svg";
+import React from 'react'
+import { Container, Row, Column, Heading } from './Features.styled'
+import Feature from '../Feature'
+import FeatureImage1 from '../../assets/Data report-amico.svg'
+import FeatureImage2 from '../../assets/Data Trends-amico.svg'
+import FeatureImage3 from '../../assets/Report-amico.svg'
 
 const features = [
   {
     image: FeatureImage1,
-    heading: "Business and data recovery",
+    heading: 'Business review and data capture',
     copy:
-      "Explore the data available and discover the Business Drivers of your organization",
+      'Explore and organize the data that drives your business to make it actionable'
   },
   {
     image: FeatureImage2,
-    heading: "Metrics and KPI definition",
-    copy: "Define the key parameters that measure success of your business",
+    heading: 'Metrics and KPI definition',
+    copy: 'Define the key parameters that measure your business success'
   },
   {
     image: FeatureImage3,
-    heading: "Reporting and data visualization",
+    heading: 'Data visualization and insights driven reports',
     copy:
-      "Design and create visual reports that best fit with your business goals",
-  },
-];
+      'Design and create visual reports that fit your business goals to make data-driven decisions'
+  }
+]
 
 const Features = () => {
   return (
@@ -37,7 +37,7 @@ const Features = () => {
         ))}
       </Row>
     </Container>
-  );
-};
+  )
+}
 
-export default Features;
+export default Features

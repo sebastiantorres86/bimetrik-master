@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 768px) {
     padding: 1rem 3rem 2rem;
   }
-`;
+`
 
 export const Heading = styled.h3`
   font-family: Work Sans;
@@ -27,7 +27,7 @@ export const Heading = styled.h3`
     text-align: center;
     margin-bottom: 0.5rem;
   }
-`;
+`
 
 export const Copy = styled.p`
   font-family: Work Sans;
@@ -40,4 +40,4 @@ export const Copy = styled.p`
 
   color: #2b292d;
   margin-top: 0;
-`;
+`

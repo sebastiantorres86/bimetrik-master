@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   padding: 3rem 1rem;
@@ -11,7 +11,7 @@ export const Container = styled.div`
     height: auto;
     padding: 1rem 126px;
   }
-`;
+`
 
 export const Row = styled.div`
   display: flex;
@@ -21,7 +21,7 @@ export const Row = styled.div`
   @media only screen and (min-width: 768px) {
     flex-direction: row;
   }
-`;
+`
 
 export const Column = styled.div`
   flex: 100%;
@@ -29,7 +29,7 @@ export const Column = styled.div`
   @media only screen and (min-width: 768px) {
     flex: 33%;
   }
-`;
+`
 
 export const Heading = styled.h2`
   margin: 0;
@@ -52,4 +52,4 @@ export const Heading = styled.h2`
     text-align: center;
     letter-spacing: -0.5px;
   }
-`;
+`

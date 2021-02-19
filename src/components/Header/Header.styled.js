@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import styled from 'styled-components'
+import { NavLink } from 'react-router-dom'
 
-const activeClassName = "nav-item-active";
+const activeClassName = 'nav-item-active'
 
 export const StyledLink = styled(NavLink).attrs({ activeClassName })`
 position: relative;
@@ -39,7 +39,7 @@ position: relative;
 
     color: #0f1f37;
   }
-`;
+`
 
 export const PreHeader = styled.div`
   display: flex;
@@ -53,7 +53,7 @@ export const PreHeader = styled.div`
   @media only screen and (min-width: 768px) {
     padding: 0.5rem 126px;
   }
-`;
+`
 
 export const Row = styled.div`
   display: flex;
@@ -68,11 +68,11 @@ export const Row = styled.div`
     padding: 2rem 126px 2rem;
     background: #fff;
   }
-`;
+`
 
 export const Column = styled.div`
   flex: 50%;
-`;
+`
 
 export const List = styled.ul`
   display: none;
@@ -82,7 +82,7 @@ export const List = styled.ul`
   @media only screen and (min-width: 768px) {
     display: flex;
   }
-`;
+`
 
 export const LogoContainer = styled.div`
   width: 120px;
@@ -93,4 +93,4 @@ export const LogoContainer = styled.div`
     height: auto;
     padding: 0;
   }
-`;
+`

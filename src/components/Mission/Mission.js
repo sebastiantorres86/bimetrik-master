@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   Container,
   RowEven,
@@ -12,29 +12,25 @@ import {
   Image,
   Blockquote,
   BlockquoteCopy,
-  QuoteAuthor,
-} from "./Mission.styled";
-import HeroImage from "../../assets/About us page-amico.svg";
+  QuoteAuthor
+} from './Mission.styled'
+import HeroImage from '../../assets/About us page-amico.svg'
 import values from '../../assets/values.PNG'
-import Team from "../Team";
+import Team from '../Team'
 
 const Mission = () => {
   return (
     <Container>
-      {/* <Heading>
-        We empower innovators by delivering access to business insights
-      </Heading> */}
       <RowOdd>
         <ColumnHeading>
           <Subheading>Our Mission</Subheading>
           <Copy>
-            Our main goal is to help organizations to build a strategic
-            decision-making process to achieve their objetives. We do that
-            exploring, analizing and creating actionable dashboards to undertand
-            easily and efficiently the valuable data for the business. The
-            result is an intelligent tool that gives everyone the ability to
-            manage their data and solve big problems. We are deeply focused on
-            democratizing business intelligence through technology.
+            Our goal is to help organizations to build a data-driven strategic
+            decision-making process to achieve their objetives. We do that by
+            exploring, analyzing and creating actionable data dashboards. The
+            result is an intelligent tool that gives business of all sizes the
+            ability to manage their data and solve big problems. We are deeply
+            focused on democratizing business intelligence through technology.
           </Copy>
           <Subheading>Our Business</Subheading>
           <Copy>
@@ -45,51 +41,38 @@ const Mission = () => {
           </Copy>
         </ColumnHeading>
         <ColumnCopy>
-          <Image src={HeroImage} alt="about us" />
+          <Image src={HeroImage} alt='about us' />
         </ColumnCopy>
       </RowOdd>
       <RowEven>
         <ColumnHeading>
           <Subheading>Values</Subheading>
-          <Image src={values} alt="values" />
+          <Image src={values} alt='values' />
         </ColumnHeading>
         <Ul>
           <Item>
             <b>Trust: </b>
-            Build a long-term relationship with the client based on Honesty and
-            Transparency.
+            Our goal is to build a long-term relationship with our client based
+            on honesty and transparency.
           </Item>
           <Item>
-            <b>Team: </b>Work as a team in every decision - "Work with".
+            <b>Team: </b>We work as a team at every decision point.
           </Item>
           <Item>
             <b>Direct Relationship: </b>
-            No intermediares involved. Client contacting directly to us.
+            AS principals, we have direct involvement with our clients.
           </Item>
           <Item>
             <b>Fluent Communication: </b>
-            Feedback from the client to ensure our services works for them.
+            We seek continuous feedback to ensure our services are meeting
+            client needs.
           </Item>
           <Item>
-            <b>Fast Deliver: </b>Reach the agreed deadlines.
+            <b>Timely Delivery: </b> We create detailed timelines and commit to
+            meeting deadlines.
           </Item>
         </Ul>
       </RowEven>
-      <RowOdd>
-        <ColumnHeading>
-          <Subheading>The Culture</Subheading>
-        </ColumnHeading>
-        <ColumnCopy>
-          <Copy>
-            We strongly believe there's always an opportunity to learn from each
-            other outside fo day-to-day work , whether it's company-wide
-            offsites, or co-workers meetups. We always value cross-team
-            collaboration and diversity of thought, no matter the job title.
-          </Copy>
-        </ColumnCopy>
-      </RowOdd>
-      <Team />
-
       <RowOdd>
         <ColumnHeading>
           <Blockquote>
@@ -100,8 +83,9 @@ const Mission = () => {
           </Blockquote>
         </ColumnHeading>
       </RowOdd>
+      <Team />
     </Container>
-  );
-};
+  )
+}
 
-export default Mission;
+export default Mission

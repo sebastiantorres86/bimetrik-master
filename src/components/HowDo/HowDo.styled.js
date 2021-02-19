@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   padding: 1rem 1rem 2rem;
@@ -8,13 +8,13 @@ export const Container = styled.div`
     padding: 3rem 126px;
     height: auto;
   }
-`;
+`
 
 export const Parent = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-`;
+`
 
 export const Div = styled.div`
   width: 100%;
@@ -26,7 +26,7 @@ export const Div = styled.div`
   @media only screen and (min-width: 768px) {
     width: 275px;
   }
-`;
+`
 
 export const Heading = styled.h2`
   font-family: Work Sans;
@@ -42,7 +42,7 @@ export const Heading = styled.h2`
   color: #2b292d;
   margin: 0;
   padding: 0 0 1rem;
-`;
+`
 
 export const Subheading = styled.h2`
   font-family: Work Sans;
@@ -53,7 +53,7 @@ export const Subheading = styled.h2`
   /* or 100% */
 
   color: #2b292d;
-`;
+`
 
 export const Copy = styled.p`
   font-family: Work Sans;
@@ -66,10 +66,10 @@ export const Copy = styled.p`
 
   color: #2b292d;
   margin-top: 0;
-`;
+`
 
 export const Image = styled.img`
   width: 80%;
   height: auto;
   padding: 0 3rem;
-`;
+`

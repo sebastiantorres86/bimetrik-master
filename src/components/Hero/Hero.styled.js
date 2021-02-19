@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Row = styled.div`
   /* height: 75vh; */
@@ -11,7 +11,7 @@ export const Row = styled.div`
     flex-direction: row;
     padding: 1rem 126px;
   }
-`;
+`
 
 export const ButtonRow = styled(Row)`
   width: 100%;
@@ -22,11 +22,11 @@ export const ButtonRow = styled(Row)`
   @media only screen and (min-width: 768px) {
     width: 70%;
   }
-`;
+`
 
 export const Column = styled.div`
   flex: 50%;
-`;
+`
 
 export const Copy = styled.p`
   font-family: Work Sans;
@@ -40,9 +40,9 @@ export const Copy = styled.p`
   @media only screen and (min-width: 768px) {
     width: 70%;
   }
-`;
+`
 
 export const Image = styled.img`
   width: 100%;
   height: auto;
-`;
+`

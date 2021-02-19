@@ -1,5 +1,5 @@
-import React from "react";
-import { Hero, Features, Tooltip, Works } from "../../components";
+import React from 'react'
+import { Hero, Features, Tooltip, Works } from '../../components'
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <Tooltip />
       <Works />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

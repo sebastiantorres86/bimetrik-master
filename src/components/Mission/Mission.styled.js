@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   background: #c7cfdb;
@@ -6,7 +6,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 768px) {
     padding: 1rem 0 3rem;
   }
-`;
+`
 
 export const RowOdd = styled.div`
   display: flex;
@@ -20,27 +20,27 @@ export const RowOdd = styled.div`
     flex-direction: row;
     padding: 2rem 126px 3rem;
   }
-`;
+`
 
 export const RowEven = styled(RowOdd)`
   background: #fff;
-`;
+`
 
 export const ColumnHeading = styled.div`
   flex: 1;
-`;
+`
 
 export const Ul = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
   padding-top: 4rem;
-`;
+`
 
 export const ColumnCopy = styled.div`
   flex: 1;
   display: flex;
-`;
+`
 
 export const Heading = styled.h2`
   font-family: Work Sans;
@@ -58,7 +58,7 @@ export const Heading = styled.h2`
   @media only screen and (min-width: 768px) {
     padding-right: 23rem;
   }
-`;
+`
 
 export const Subheading = styled.h3`
   font-family: Work Sans;
@@ -77,7 +77,7 @@ export const Subheading = styled.h3`
   @media only screen and (min-width: 768px) {
     text-align: left;
   }
-`;
+`
 
 export const Item = styled.li`
   list-style-type: square;
@@ -91,7 +91,7 @@ export const Item = styled.li`
   color: #2c3241;
   margin-top: 0;
   margin-bottom: 1rem;
-`;
+`
 
 export const Copy = styled.p`
   font-family: Work Sans;
@@ -103,7 +103,7 @@ export const Copy = styled.p`
 
   color: #2c3241;
   margin-top: 0;
-`;
+`
 
 export const Image = styled.img`
   width: 100%;
@@ -114,7 +114,7 @@ export const Image = styled.img`
     width: 75%;
     margin-left: 6rem;
   }
-`;
+`
 
 export const AvatarContainer = styled.div`
   display: flex;
@@ -124,14 +124,14 @@ export const AvatarContainer = styled.div`
   @media only screen and (min-width: 768px) {
     align-items: flex-start;
   }
-`;
+`
 
 export const Avatar = styled.img`
   width: 70%;
   height: auto;
   border-radius: 50%;
   padding: 2rem;
-`;
+`
 
 export const Blockquote = styled.blockquote`
   position: relative;
@@ -155,7 +155,7 @@ export const Blockquote = styled.blockquote`
     font-size: 200px;
     color: rgba(0, 0, 0, 0.1);
   }
-`;
+`
 
 export const BlockquoteCopy = styled.p`
   font-size: 32px;
@@ -163,7 +163,7 @@ export const BlockquoteCopy = styled.p`
   text-align: center;
   margin-bottom: 0;
   color: #2b292d;
-`;
+`
 
 export const QuoteAuthor = styled.p`
   font-size: 24px;
@@ -171,4 +171,4 @@ export const QuoteAuthor = styled.p`
   text-align: center;
   margin-top: 0;
   color: #2b292d;
-`;
+`

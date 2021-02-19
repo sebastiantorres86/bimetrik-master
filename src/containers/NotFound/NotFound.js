@@ -1,6 +1,6 @@
 import React from 'react'
 import { Div, Image } from './NotFound.styled'
-import imageNotFound from '../../assets/404 Error-rafiki.svg'
+import imageNotFound from '../../assets/404.png'
 
 const NotFound = () => {
   return (
